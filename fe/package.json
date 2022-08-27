@@ -1,0 +1,40 @@
+{
+  "name": "fe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.6.6",
+    "@heroicons/vue": "^1.0.6",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.4",
+    "flowbite": "^1.4.7",
+    "select-philippines-address": "^1.0.6",
+    "tw-elements": "^1.0.0-alpha12",
+    "vue": "^3.2.37",
+    "vue-avatar": "^2.3.3",
+    "vue-router": "^4.1.2",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "prettier": "2.7.1",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.7"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "off",
+      "no-undef": "off",
+      "no-irregular-whitespace": "off"
+    }
+  }
+}
